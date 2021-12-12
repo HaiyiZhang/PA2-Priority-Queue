@@ -20,7 +20,7 @@ GIVENTESTS := test_null test_insert_empty test_insert_priorities
 # name, which will be test_something.  This corresponds to a C file
 # named tests/something.c; see the rule below for test_% for more
 # information.
-MYTESTS := test_insert test_peek_null test_peek_full test_get_full test_get_null test_get_full2
+MYTESTS := test_peek_full test_get_full test_get_full2
 
 # This is the first rule in the file, so it's what runs when you type
 # make with no arguments.  It will build list.o and validate.o, which
